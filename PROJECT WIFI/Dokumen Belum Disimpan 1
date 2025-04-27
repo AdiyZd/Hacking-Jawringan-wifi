@@ -1,0 +1,14 @@
+Bagaimana cara kerjanya?
+
+Step 1: Kirim paket ARP palsu ke target, beri tahu bahwa PC kita adalah gateway.
+Step 2: Kirim paket ARP palsu ke router, beri tahu bahwa PC kita adalah target.
+Step 3: Semua lalu lintas dari target ke internet akan melalui PC kita.
+
+Sebelum ARP Spoofing:
+Target ---> Router ---> Internet
+
+Setelah ARP Spoofing:
+Target ---> [PC kita] ---> Router ---> Internet
+
+
+
